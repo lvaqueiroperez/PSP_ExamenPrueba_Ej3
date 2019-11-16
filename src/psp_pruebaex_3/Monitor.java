@@ -25,6 +25,7 @@ public class Monitor {
 
         disp = false;
 
+        //ACCEDER 10 VECES AL MÉTODO EN LA CLASE DEL HILO EN VEZ DE PONER AQUÍ EL FOR??
         for (int i = 0; i < texto.length(); i++) {
 
             if (Character.isUpperCase(texto.charAt(i))) {
